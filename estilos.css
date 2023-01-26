@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/stock-1863880.jpg);
+}
+.A, .D, footer{
+    height: 300px;
+    width: 800px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.espacio, .espacio2, .C
+{
+    width: 800px;
+    height: 5px;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+#principal{
+    width: 800px;
+    height: 90px;
+    background-color: brown;
+    position: fixed;
+    margin: 5px;
+   margin-left: 275px;
+   margin-right: auto;
+
+}
+.primero{
+width: 50px;
+height: 50px;
+margin-left: 20px;
+padding-top: 20px;
+position: absolute;
+
+}
+.primero img{ 
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.segundo{
+    width: 250px;
+height: 50px;
+position: absolute;
+left: 150px;
+background-color: brown;
+margin-top: 20px;
+}
+.segundo h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.tercero{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 400px;
+    background-color: brown;
+    margin-top: 20px;
+}
+.tercero h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.cuarto{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    left: 700px;
+    background-color: brown;
+    margin-top: 20px;
+}
+.cuarto h1{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+}
+.cuarto h1 a, 
+.tercero h1 a {
+    text-decoration: none;
+    color: black;
+}
+.cuarto h1 a:hover,
+.tercero h1 a:hover{
+    color: aliceblue;
+    font-size: 18px;
+}
+.A img{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+footer h1{
+    color: antiquewhite;
+    padding-left: 20px;
+}
+.D div img{
+    width: 120px;
+    height: 120px;
+    padding-top: 160px;
+    padding-left: 350px;
+}
+@media all and (min-width:600px) and (max-width:1023px) {
+
+    .A, .D, footer{
+        width: 580px;
+    }
+    .espacio, .espacio2, .C
+    {
+        width: 580px;
+        height: 3px;
+    }
+    #principal{
+        width: 580px;
+        margin: 5px;
+       margin-left: 42px;
+    
+    }
+    .primero{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    }
+    .primero img{ 
+        width: 30px;
+        height: 30px;
+    }
+    .segundo{
+        width: 250px;
+    height: 50px;
+    left: 80px;
+    margin-top: 20px;
+    }
+    .segundo h1{
+        font-size: 18px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .tercero{
+        width: 250px;
+        height: 50px;
+        left: 300px;
+        margin-top: 20px;
+    }
+    .tercero h1{
+        font-size: 18px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .cuarto{
+        width: 70px;
+        height: 50px;
+        left: 500px;
+        margin-top: 20px;
+    }
+    .cuarto h1{
+        font-size: 15px;
+        text-align: center;
+        padding-top: 15px;
+    }
+    footer h1{
+        color: antiquewhite;
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .D div img{
+        width: 120px;
+        height: 120px;
+        padding-top: 120px;
+        padding-left: 250px;
+    }
+
+}
